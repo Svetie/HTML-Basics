@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/process" method="post">
+        <div>
+            <label>Name: </label>
+            <input type="text" name="name" placeholder="Your name...">
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="text" name="email" placeholder="Your email...">
+        </div>
+        <div>
+            <input type="checkbox" name="offers" id="offers" checked>
+            <label for="offers">I would like
+                to receive email offers!</label>
+        </div>
+        <input type="submit" value="Sign Up!">
+    </form>
+
+    <!-- Radio -->
+    <form action="">
+        <input type="radio" name="font" value="bold" id="bold">
+        <label for="bold"><strong>Bold</strong><label>
+        <input type="radio" name="font" value="normal" id="normal">
+        <label for="normal">Normal<label>
+    </form>
+
+    <!-- Checkbox -->
+    <form action="">
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">I agree<label>
+    </form>
+
+    <!-- Text Area -->
+    <form action="">
+        <textarea name="comment" cols="20" rows="3"></textarea>
+    </form>
+
+    <!-- Select -->
+    <form>
+        <select name="snack">
+            <option>Almonds</option>
+            <option>Cheese and Crackers</option>
+            <option>Pita and Hummus</option>
+            <option>Pears</option>
+        </select>
+    </form>
+</body>
+
+</html>f
