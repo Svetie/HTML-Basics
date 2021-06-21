@@ -54,6 +54,9 @@
             <option>Pears</option>
         </select>
     </form>
+    
+    <!-- Color -->
+    <input type="color" name="color">
 </body>
 
 </html>f
